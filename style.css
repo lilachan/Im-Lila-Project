@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html,body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #bdbdbd;
+}
+/* First box */
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: url('./media/city.jpg');
+}
+
+.first-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-box-content {
+    padding: 10px 60px;
+    border-radius: 8px;
+    letter-spacing: 4px;
+    color:rgb(226, 226, 226);
+    background-color: rgb(6, 6, 6);
+}
+/* Second box */
+.about-me {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 110vh;
+    padding-top: 50px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.my-hobby {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 110vh;   
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rain-of-colors{
+    text-align: center; 
+    font-size: 95%; 
+    margin-top: 10px;
+}
+
+.my-hobby-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.photography-text {
+    margin: 60px;
+    padding-bottom: 30px;
+}
+
+/* Contact Banner */
+
+.bgimg2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: url('./media/contact.jpg');}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.contact-box-content {
+    padding: 10px 60px;
+    border-radius: 8px;
+    letter-spacing: 4px;
+    color:rgb(226, 226, 226);
+    background-color: rgb(4, 4, 4);
+}
+
+/* Third Box */
+
+.discord {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 110vh;   
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.discord-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.discord-info {
+    margin: 60px;
+    font-size: 18px;
+}
